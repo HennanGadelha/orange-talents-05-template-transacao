@@ -62,7 +62,7 @@ services:
     image: jboss/keycloak
     ports:
       - 18443:8443
-      - 8080:8080
+      - 18080:8080
       - 19990:9990
     networks:
       - transacao-network
